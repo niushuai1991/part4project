@@ -11798,7 +11798,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[83]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
@@ -11863,7 +11863,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 性别为空或异常值，执行后没有发现异常</span>
@@ -11880,7 +11880,7 @@ div#notebook {
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[3]:</div>
+<div class="prompt output_prompt">Out[2]:</div>
 
 
 
@@ -11972,7 +11972,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 查看幸存人数 用于之后对统计后的值进行验证</span>
@@ -12025,7 +12025,7 @@ dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[52]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">has_sex_df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="o">~</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Sex&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isnull</span><span class="p">()]</span>
@@ -12042,7 +12042,7 @@ dtype: int64
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[52]:</div>
+<div class="prompt output_prompt">Out[4]:</div>
 
 
 
@@ -12059,7 +12059,7 @@ dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[121]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
@@ -12076,13 +12076,13 @@ dtype: int64
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[121]:</div>
+<div class="prompt output_prompt">Out[28]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x11db9b290&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x117ee0110&gt;</pre>
 </div>
 
 </div>
@@ -12135,7 +12135,7 @@ dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[55]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 去除没有年龄的记录</span>
@@ -12153,7 +12153,7 @@ dtype: int64
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[55]:</div>
+<div class="prompt output_prompt">Out[6]:</div>
 
 
 
@@ -12170,7 +12170,7 @@ dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[60]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># </span>
@@ -12204,7 +12204,7 @@ dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[258]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 这一块代码不起作用，调试好久也没成功，所以用了后面的pd.cut()函数</span>
@@ -12224,7 +12224,7 @@ dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[272]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 将年龄转换成年龄段</span>
@@ -12244,7 +12244,23 @@ dtype: int64
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[272]:</div>
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>/Users/niushuai/anaconda2/lib/python2.7/site-packages/ipykernel_launcher.py:4: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  after removing the cwd from sys.path.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[9]:</div>
 
 
 
@@ -12376,11 +12392,13 @@ dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[279]:</div>
+<div class="prompt input_prompt">In&nbsp;[37]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 按年龄段分组</span>
 <span class="n">age_not_null_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;age_sec&#39;</span><span class="p">,</span><span class="s1">&#39;Survived&#39;</span><span class="p">])[</span><span class="s1">&#39;Survived&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">()</span><span class="o">.</span><span class="n">unstack</span><span class="p">()</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">&#39;bar&#39;</span><span class="p">,</span><span class="n">stacked</span><span class="o">=</span><span class="s1">&#39;True&#39;</span><span class="p">)</span>
+<span class="c1">#print(age_not_null_df.groupby([&#39;age_sec&#39;,&#39;Survived&#39;], as_index=False)[&#39;age_sec&#39;,&#39;Survived&#39;]).count()</span>
+<span class="c1">#present_year.div(present_year.sum(1),axis=0)[:10].plot(kind=&#39;barh&#39;, stacked=True)</span>
 </pre></div>
 
 </div>
@@ -12393,13 +12411,13 @@ dtype: int64
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[279]:</div>
+<div class="prompt output_prompt">Out[37]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x11dea98d0&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x117f941d0&gt;</pre>
 </div>
 
 </div>
@@ -12425,47 +12443,28 @@ dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[119]:</div>
+<div class="prompt input_prompt">In&nbsp;[57]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#df.pivot_table(index=&#39;Sex&#39;, values=&#39;Age&#39;, aggfunc=np.mean) #.plot()</span>
-<span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;Sex&#39;</span><span class="p">)[</span><span class="s1">&#39;Age&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 展示各年龄段的幸存率直方图</span>
+<span class="n">grouped_age_sec_df</span> <span class="o">=</span> <span class="n">age_not_null_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;age_sec&#39;</span><span class="p">,</span><span class="s1">&#39;Survived&#39;</span><span class="p">])[</span><span class="s1">&#39;age_sec&#39;</span><span class="p">,</span><span class="s1">&#39;Survived&#39;</span><span class="p">]</span>
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[119]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>Sex
-female    27.915709
-male      30.726645
-Name: Age, dtype: float64</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[118]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">pivot_table</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;Pclass&quot;</span><span class="p">,</span><span class="s2">&quot;Sex&quot;</span><span class="p">],</span> <span class="n">values</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;Age&quot;</span><span class="p">,</span> <span class="s2">&quot;Fare&quot;</span><span class="p">],</span> <span class="n">aggfunc</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">)</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#df.pivot_table(index=&#39;Sex&#39;, values=&#39;Age&#39;, aggfunc=np.mean) #.plot()</span>
+<span class="c1">#df.groupby(&#39;Sex&#39;)[&#39;Age&#39;].mean()</span>
+<span class="n">age_not_null_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;age_sec&#39;</span><span class="p">,</span><span class="s1">&#39;Survived&#39;</span><span class="p">])</span>
+
+<span class="n">df</span><span class="o">.</span><span class="n">pivot_table</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;Pclass&quot;</span><span class="p">,</span><span class="s2">&quot;Sex&quot;</span><span class="p">],</span> <span class="n">values</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;Age&quot;</span><span class="p">,</span> <span class="s2">&quot;Fare&quot;</span><span class="p">],</span> <span class="n">aggfunc</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12478,77 +12477,13 @@ Name: Age, dtype: float64</pre>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[118]:</div>
+<div class="prompt output_prompt">Out[25]:</div>
 
 
 
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th></th>
-      <th>Age</th>
-      <th>Fare</th>
-    </tr>
-    <tr>
-      <th>Pclass</th>
-      <th>Sex</th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th rowspan="2" valign="top">1</th>
-      <th>female</th>
-      <td>34.611765</td>
-      <td>106.125798</td>
-    </tr>
-    <tr>
-      <th>male</th>
-      <td>41.281386</td>
-      <td>67.226127</td>
-    </tr>
-    <tr>
-      <th rowspan="2" valign="top">2</th>
-      <th>female</th>
-      <td>28.722973</td>
-      <td>21.970121</td>
-    </tr>
-    <tr>
-      <th>male</th>
-      <td>30.740707</td>
-      <td>19.741782</td>
-    </tr>
-    <tr>
-      <th rowspan="2" valign="top">3</th>
-      <th>female</th>
-      <td>21.750000</td>
-      <td>16.118810</td>
-    </tr>
-    <tr>
-      <th>male</th>
-      <td>26.507589</td>
-      <td>12.661633</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+<div class="output_text output_subarea output_execute_result">
+<pre>&lt;pandas.core.groupby.DataFrameGroupBy object at 0x117d6bb10&gt;</pre>
 </div>
 
 </div>
@@ -12562,7 +12497,8 @@ Name: Age, dtype: float64</pre>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="&#21442;&#32771;&#36164;&#26009;">&#21442;&#32771;&#36164;&#26009;<a class="anchor-link" href="#&#21442;&#32771;&#36164;&#26009;">&#182;</a></h2><p><a href="http://www.cnblogs.com/kylinlin/p/5226860.html">Pandas简易入门（二） - kylinlin - 博客园</a><br>
-<a href="https://blog.csdn.net/Norsaa/article/details/77774634">python 报ValueError: Bin labels must be one fewer than the number of bin edges</a></p>
+<a href="https://blog.csdn.net/Norsaa/article/details/77774634">python 报ValueError: Bin labels must be one fewer than the number of bin edges</a><br>
+<a href="https://blog.csdn.net/fennvde007/article/details/37693523">用Pandas作图 - CSDN博客</a></p>
 
 </div>
 </div>
